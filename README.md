@@ -2,16 +2,11 @@ Flutter News App
 Welcome to the Flutter News App, a highly customizable and interactive quiz application built using the Flutter framework. This project serves as an engaging platform for learning and testing knowledge, making it suitable for real-time news from various categories.
 
 📖 Features
-User-Friendly Interface: Intuitive and responsive UI for an enhanced user experience.
-Customizable Quizzes: Add or modify questions easily via a structured JSON or database.
-ChatBox: Prompt questions or get advice about any subject.
-Progress Tracking: Visual indicators to show quiz progress.
-Create Quizzes: Users can create quizzes and practice based on their knowledge.
-Buy Pro Quizzes: Purchase quizzes through Stripe's payment service.
-Favorite Quizzes: Save quizzes that left an impression on you.
-Score Calculation: Real-time scoring system to evaluate quiz performance.
-Cross-Platform Support: Runs seamlessly on both Android and iOS devices.
-Save Test Progress: Save progress when taking a quiz.
+**User-Friendly Interface**: Intuitive and responsive UI for an enhanced user experience.
+**Read News:** Allow user read details news follow category
+**Search News:** Search news by keyword and category
+**Favorite News:** Allow user to add favorite news to read
+**History News:** Allow to manage history news have viewed before.
 
 🚀 Getting Started
 Prerequisites
