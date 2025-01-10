@@ -1,33 +1,36 @@
-Flutter News App
+# Flutter News App
+
 Welcome to the Flutter News App, a highly customizable and interactive quiz application built using the Flutter framework. This project serves as an engaging platform for learning and testing knowledge, making it suitable for real-time news from various categories.
 
-📖 Features
-**User-Friendly Interface**: Intuitive and responsive UI for an enhanced user experience.
-**Read News:** Allow user read details news follow category
-**Search News:** Search news by keyword and category
-**Favorite News:** Allow user to add favorite news to read
-**History News:** Allow to manage history news have viewed before.
+## 📖 Features
 
-🚀 Getting Started
-Prerequisites
+- **User-Friendly Interface**: Intuitive and responsive UI for an enhanced user experience.
+- **Read News**: Allow users to read detailed news by category.
+- **Search News**: Search news by keyword and category.
+- **Favorite News**: Allow users to add favorite news to read later.
+- **History News**: Manage the history of news viewed before.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
 Ensure you have the following installed on your system:
-Flutter SDK
-Dart SDK
-Android Studio or VS Code with Flutter extensions
 
+- Flutter SDK  
+- Dart SDK  
+- Android Studio or VS Code with Flutter extensions  
 
-Clone the repository:
+### Clone the repository:
+
 ```bash
 git clone https://github.com/hungpt2004/newsappflutter.git
 cd flutter_quiz_app
-```
-
-
-```bash
 flutter run
 🛠️ Project Structure
-css
-Copy code
+plaintext
+Sao chép mã
 news_app_flutter/
 ├── android/
 ├── assets/
@@ -62,17 +65,19 @@ news_app_flutter/
 ├── devtools_options.yaml
 └── news_app_flutter.iml
 ```
-📦 Dependencies
+
+## 📦 Dependencies
 The app uses the following dependencies:
-provider: For state management.
-flutter_svg: For rendering SVG images.
-http: For fetching quiz data (if API integration is enabled).
-cached_network_image: For saving images into cached storage.
-...
-📜 License
+
+- provider: For state management.
+- flutter_svg: For rendering SVG images.
+- http: For fetching quiz data (if API integration is enabled).
+- cached_network_image: For saving images into cached storage.
+
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🌐 Connect with Us
+## 🌐 Connect with Us
 Author: Pham Trong Hung
 Email: hungptfpt2004@gmail.com
 Feel free to reach out for any queries or suggestions!
