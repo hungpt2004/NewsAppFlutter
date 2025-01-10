@@ -1,7 +1,5 @@
 Flutter News App
-```bash
 Welcome to the Flutter News App, a highly customizable and interactive quiz application built using the Flutter framework. This project serves as an engaging platform for learning and testing knowledge, making it suitable for real-time news from various categories.
-```
 
 📖 Features
 User-Friendly Interface: Intuitive and responsive UI for an enhanced user experience.
