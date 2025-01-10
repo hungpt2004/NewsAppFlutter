@@ -1,5 +1,7 @@
 Flutter News App
+```bash
 Welcome to the Flutter News App, a highly customizable and interactive quiz application built using the Flutter framework. This project serves as an engaging platform for learning and testing knowledge, making it suitable for real-time news from various categories.
+```
 
 📖 Features
 User-Friendly Interface: Intuitive and responsive UI for an enhanced user experience.
@@ -12,30 +14,23 @@ Favorite Quizzes: Save quizzes that left an impression on you.
 Score Calculation: Real-time scoring system to evaluate quiz performance.
 Cross-Platform Support: Runs seamlessly on both Android and iOS devices.
 Save Test Progress: Save progress when taking a quiz.
+
 🚀 Getting Started
 Prerequisites
 Ensure you have the following installed on your system:
-
 Flutter SDK
 Dart SDK
 Android Studio or VS Code with Flutter extensions
-A device or emulator for testing
-Installation
-Clone the repository:
 
-bash
-Copy code
+
+Clone the repository:
+```bash
 git clone https://github.com/hungpt2004/newsappflutter.git
 cd flutter_quiz_app
-Install dependencies:
+```
 
-bash
-Copy code
-flutter pub get
-Run the app:
 
-bash
-Copy code
+```bash
 flutter run
 🛠️ Project Structure
 css
@@ -73,9 +68,9 @@ news_app_flutter/
 ├── analysis_options.yaml
 ├── devtools_options.yaml
 └── news_app_flutter.iml
+```
 📦 Dependencies
 The app uses the following dependencies:
-
 provider: For state management.
 flutter_svg: For rendering SVG images.
 http: For fetching quiz data (if API integration is enabled).
@@ -87,7 +82,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 🌐 Connect with Us
 Author: Pham Trong Hung
 Email: hungptfpt2004@gmail.com
-LinkedIn: LinkedIn Profile
 Feel free to reach out for any queries or suggestions!
 
 Happy coding! 🎉
