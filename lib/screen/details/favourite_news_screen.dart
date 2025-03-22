@@ -18,7 +18,7 @@ class _FavouriteNewsScreenState extends State<FavouriteNewsScreen> {
   Widget build(BuildContext context) {
 
     final provider = FavouriteProvider.of(context);
-    final themeProvider = ThemeProvider.of(context);
+    final themeProvider = ThemeProvider.of(context); //instance of provider
 
     return SafeArea(
       child: Scaffold(

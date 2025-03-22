@@ -124,20 +124,15 @@ class Style {
   }
 
   static Widget networkImage(String url){
-    return CachedNetworkImage(
-      imageUrl: url,
-      fit: BoxFit.cover,
-      progressIndicatorBuilder: (context, url, downloadProgress) =>
-          Center(child: CircularProgressIndicator(
-              color: primaryColors,
-              value: downloadProgress.progress),),
-      errorWidget: (context, url, error) {
-        return const Center(
-          child: Icon(CupertinoIcons.info_circle),
-        );
+    return Image.network(
+      url,
+      loadingBuilder: (context, child, loadingProgress) {
+        if (loadingProgress == null) return child;
+        return Center(child: CircularProgressIndicator());
       },
-      fadeInDuration: const Duration(milliseconds: 300),
-      fadeInCurve: Curves.easeInOut,
+      errorBuilder: (context, error, stackTrace) {
+        return Icon(Icons.error);
+      },
     );
   }
 
